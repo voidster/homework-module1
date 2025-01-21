@@ -20,6 +20,11 @@ header {
   background-size: 1500px;
 }
 
+#cliffs header {
+  background: no-repeat lightgrey url(images/forest_cliff.jpg);
+  background-size: 1500px;
+}
+
 .main-header {
   background-color: rgba(255, 255, 255, 0.8);
   width: 700px;
@@ -299,4 +304,41 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
   background-color: #9ed034;
+}
+
+/*Cliffs*/
+.cliffs-container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 44px;
+}
+
+.cliff-row {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  margin: 0 10% 2em 10%;
+}
+
+.cliff-card {
+  width: 47%;
+  text-align: center;
+  display: inline-block;
+}
+
+.cliff-card:first-of-type {
+  margin-right: 4%;
+}
+
+.cliff-title {
+  background-color: #852b1b;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em;
+  margin: 0;
+}
+
+.cliff-card img {
+  width: 100%;
+  height: auto;
 }
