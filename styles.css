@@ -361,7 +361,7 @@ form input[type="submit"]:hover {
 }
 
 .randomcode {
-  margin-left: 290px;
+  margin-left: 274px;
 }
 
 .randomcode input[type="text"] {
@@ -375,4 +375,6 @@ form input[type="submit"]:hover {
   background-color: lightgray;
   margin: 8px 0px 0px 16px;
   padding: 15px;
+  width: 82px;
+  text-align: center;
 }
