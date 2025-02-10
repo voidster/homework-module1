@@ -213,6 +213,12 @@ th:first-child {
   background: #bde1ff;
 }
 
+.selected {
+  background-color: #90ee90 !important; /* Light Green Highlight */
+  font-weight: bold;
+  color: white;
+}
+
 /* Contacts */
 form {
   width: 1254px;
