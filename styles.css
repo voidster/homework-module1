@@ -219,6 +219,18 @@ form {
   margin-top: 2em;
 }
 
+th:first-child {
+  width: 125px;
+  height: 50px;
+  background: #4977d1;
+  color: #fff;
+}
+
+td:first-child {
+  font-weight: bold;
+  background: #bde1ff;
+}
+
 legend {
   font-weight: bold;
   color: #4977d1;
